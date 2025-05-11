@@ -1,53 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sarah Alotibi - CV</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="container">
-    <header>
-      <img src="profile.jpg" alt="Sarah's photo" class="profile-img" />
-      <h1>Sarah Mubarak Alotibi</h1>
-      <p>Computer Science Student | Passionate about Programming</p>
-      <a href="https://www.linkedin.com/in/sarah-alotibi-38263b296" target="_blank">LinkedIn Profile</a>
-    </header>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>CV</title> 
+  <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+   <div id="welcome">
+    welcome to my CV
+   </div>
+   <script>
+    window.onload = function() {
+      document.getElementById("welcome").style.opacity = 1;
+    };
+  </script>
 
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Python</li>
-        <li>Web Development (HTML, CSS, JavaScript)</li>
-      </ul>
-    </section>
+  <header> 
+    <img src="C://Users/hp/Documents/GitHub/Cv/profile.jpg" alt="My Profile" class="profile-img">
+    <p>I'm a Learner | CS Student | Dreamer</p>
+  </header>
 
-    <section>
-      <h2>Languages</h2>
-      <ul>
-        <li>Arabic</li>
-        <li>English</li>
-      </ul>
-    </section>
 
-    <section>
-      <h2>Certificates</h2>
-      <ul>
-        <li>
-          <strong>Microsoft Certified: Power BI Data Analyst Associate</strong><br/>
-          <a href="https://www.linkedin.com/posts/sarahmetebalotaibi_microsoft-certified-power-bi-data-analyst-activity-7320687639395766272-hyhu" target="_blank">View Certificate</a>
-        </li>
-        <li>
-          <strong>Cisco Certified Networking Associate (CCNA)</strong><br/>
-          <a href="https://www.linkedin.com/posts/sarah-alotibi-38263b296_cisconetworkingacademy-ccna-networkingskills-activity-7224220979810447360-cl5V" target="_blank">View Certificate</a>
-        </li>
-      </ul>
-    </section>
+  <nav> 
+    <a href="#about">About Me</a> 
+    <a href="#Languages">Languages</a>
+    <a href="#skills">Skills</a> 
+    <a href="#Projects">Projects</a>
+    <a href="#Certificates">Certificates</a>
+    <a href="#contact">Contact</a> 
+  </nav> 
+ 
+  <!-- About me --> 
+  <section id="about"> 
+    <h2>About Me</h2> 
+    <p> 
+        I am Computer Science student. I am a dreamer and a hard worker, aspiring to become a professional programmer.   
+        I strive to achieve this goal by constantly developing my skills and taking various courses in programming and technology.   
+        I believe that hard work and continuous learning are the keys to achieving my dreams and building a bright future in the tech field. 
+    </p> 
+  </section>
+  
+  <!--Languages-->
+  <section id="Languages">
+    <h2>Languages</h2>
+    <ul>
+      <li>Arabic</li>
+      <li>English</li>
+    </ul>
+  </section>
+ 
+  <!-- Skills--> 
+  <section id="skills"> 
+    <h2>Skills</h2> 
+    <ul>
+      <li>HTML & Web Page Structuring</li>
+      <li>Basic Python Programming</li>
+      <li>Computer Networks & CCNA</li>
+      <li>Data Analysis</li>
+      <li>Database Design</li>
+      <li>Logical Thinking</li>
+    </ul>
+  </section> 
+  <section id="Projects">
+    <h2>Projects</h2>
+    <p>Smart Site Website<br/>
+      A web application using Azure Al targeting kids and students. 
+      It uses Image recognition and genorates educational descriptions for tha imagos.</p>
+    <p>Clinic System (Course Project)<br/>
+      Database Systems Course<br/>
+      Designed a simple clinic database to manage patient records, doctor information, 
+      and appointment scheduling using SQL and ERD modeling.</p>
+  </section>
+ 
+  <!--Certificates and Courses-->
+  <section id="Certificates">
+    <h2>Certificates and Courses</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Certificates Name</th>
+          <th>Issued By</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Database Foundations</td>
+          <td>Oracle Academy</td>
+          <td>2023</td>
+        </tr>
 
-    <button id="scrollTopBtn">Back to Top</button>
-  </div>
+        <tr>
+          <td>Python Essentials 1</td>
+          <td>Cisco Networking Academy</td>
+          <td>2023</td>
+        </tr>
 
-  <script src="script.js"></script>
-</body>
+        <tr>
+          <td>Comuter Network</td>
+          <td>Huawei</td>
+          <td>2024</td>
+        </tr>
+
+        <tr>
+          <td>Cisco Certified Networking Associate (CCNA)</td>
+          <td>Cisco Networking Academy</td>
+          <td>2024</td>
+        </tr>
+
+        <tr>
+          <td>Basics of Cisco Networking</td>
+          <td>Cisco Networking Academy</td>
+          <td>2024</td>
+        </tr>
+
+        <tr>
+          <td>Python Basics</td>
+          <td>University of Michigan</td>
+          <td>2024</td>
+        </tr>
+
+        <tr>
+          <td>Data Analysis</td>
+          <td>Google Developer Groups (GDG) On Campus</td>
+          <td>2025</td>
+        </tr>
+
+        <tr>
+          <td>HTML Essentials</td>
+          <td>Cisco Networking Academy</td>
+          <td>2025</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </section>
+  <!-- Contact -->
+  <section id="contact"> 
+    <h2>Contact Info</h2> 
+    <p>Email:<a href="mailto://sarnjssjah@gmail.com">sarnjssjah@gmail.com</a></p> 
+    <p>LinkedIn:<a href="http://linkedin.com/in/sarah-alotibi-38263b296">Sarah Alotibi</a></p> 
+    <p>Location: Riyadh, Saudi Arabia</p> 
+  </section> 
+   
+  <!-- Footer --> 
+  <footer> 
+    <p> &copy;2025 All Rights Reserved.</p> 
+  </footer> 
+</body> 
 </html>

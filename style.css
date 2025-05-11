@@ -1,55 +1,125 @@
+/* body */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    direction: ltr;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .profile-img {
-    width: 130px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  h1 {
-    margin: 10px 0 5px;
-  }
-  
-  a {
-    color: #0073b1;
-    text-decoration: none;
-  }
-  
-  section {
-    margin-bottom: 25px;
-  }
-  
-  ul {
-    list-style: square;
-    padding-left: 20px;
-  }
-  
-  #scrollTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    background-color: #0073b1;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f9;
+  color: #333;
+}
+/* Header */
+header {
+  background-color: #EDE4DB;
+  color: #816952;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #816952;
+}
+
+/* nav */
+nav {
+  background-color: #C7B299;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #816952;
+  text-decoration: underline;
+}
+
+/* Section */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #C7B299;
+}
+
+/*profile-img*/
+.profile{
+margin-top: 20px;
+}
+.profile-img {
+width: 90%;
+height: 250px;
+margin-top: 20px auto;
+}
+
+
+/* table */
+table{
+  width:90%;
+  font-size: 0.8em;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead tr{
+  color: #816952;
+  background-color:#C7B299 ;
+}
+th{
+  padding: 0.75em;
+}
+tbody tr{
+  background-color: #EDE4DB;
+  border-bottom: 1px solid white ;
+  color:#967d65 ;
+}
+tbody td{
+  padding: 0.75em;
+} 
+/*skills*/
+ul li{
+  color: #000;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+
+/* Contact Info */
+#contact a {
+  color: #a78d6f;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  background-color: #f1ebe5;
+  color: #c7bcb1;
+}
