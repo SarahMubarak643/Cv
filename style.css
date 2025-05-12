@@ -28,26 +28,26 @@ header p {
 /* nav */
 nav {
   background-color: #C7B299;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   padding: 10px 0;
-  overflow-x: auto;
-  width: 100%;
-  white-space: nowrap;
+  overflow-x: auto !important;
+  width: 100% !important;
+  white-space: nowrap !important;
 }
 
 nav a {
-  color: #ecf0f1;
-  text-decoration: none;
+  color: #ecf0f1 !important;
+  text-decoration: none !important;
   margin: 0 20px;
   font-weight: bold;
-  flex:0 0 auto;
-  padding: 10px 15px;
+  flex:0 0 auto !important;
+  padding: 10px 15px !important;
   border-radius: 5px;
 }
 
 nav::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 nav a:hover {
   color: #816952;
