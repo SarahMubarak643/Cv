@@ -31,6 +31,8 @@ nav {
   display: flex;
   justify-content: center;
   padding: 12px 0;
+  overflow-x: auto;
+  width: 100%;
 }
 
 nav a {
@@ -38,8 +40,13 @@ nav a {
   text-decoration: none;
   margin: 0 20px;
   font-weight: bold;
+  flex:0 0 auto;
+  padding: 10px 15px;
 }
 
+nav::-webkit-scrollbar {
+  display: none;
+}
 nav a:hover {
   color: #816952;
   text-decoration: underline;
